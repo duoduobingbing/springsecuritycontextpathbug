@@ -1,7 +1,7 @@
 # Spring Boot and Security 2.7.0-SNAPSHOT
 
-Having a custom exception entry point and a context path set causes Spring Security to
-display a white page instead of a 401 page event if `.antMatcher("/error").permitAll()` has been set.
+Having a custom exception entry point (that returns 401) and a context path set causes Spring Security to
+display a white page instead of a 401 page even if `.antMatcher("/error").permitAll()` has been set.
 
 ## How to reproduce
 
