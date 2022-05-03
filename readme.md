@@ -1,3 +1,5 @@
+Has been fixed since Spring Boot 2.6.7
+
 # Spring Boot and Security 2.7.0-SNAPSHOT
 
 Having a custom exception entry point (that returns 401) and a context path set causes Spring Security to
